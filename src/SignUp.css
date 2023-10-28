@@ -1,0 +1,29 @@
+/* src/SignUp.css */
+
+.SignUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.SignUp form {
+  width: 50%;
+}
+
+.SignUp img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .SignUp form {
+    width: 80%;
+  }
+
+  .SignUp img {
+    max-width: 50%;
+  }
+}
